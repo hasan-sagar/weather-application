@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+main {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background:linear-gradient(24deg, rgba(13,12,28,0.3) 0%, rgba(57,57,68,0.4) 56%), url("https://images.pexels.com/photos/3510717/pexels-photo-3510717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    color: #fdfdfd;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.search{
+    text-align: center;
+    padding: 0.3rem;
+}
+input{
+    padding: 1.5rem 10rem;
+    border: none;
+    outline: none;
+    border-radius: 15px 0;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+
+}
+input:focus{
+    box-shadow: 2px 8px rgb(80, 77, 77);
+    transition: 0.5s;
+    background-color: azure;
+}
+
+.main-weather{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.weather-section{
+    margin-top: 30px;
+}
+.location{
+    font-size: 42px;
+}
+.date{
+    font-size: 23px;
+}
+.temperature{
+    position: relative;
+    display: inline-block;
+    padding: 3rem;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255,0.2);
+    font-size: 65px;
+    font-weight: bold;
+}
+.weather{
+    font-size: 45px;
+}
